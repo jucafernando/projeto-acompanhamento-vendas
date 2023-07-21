@@ -1,5 +1,6 @@
-# projeto-acompanhamento-vendas
-Nesse repositório, temos o meu projeto de análise de dados. A base de dados, que é fictícia, é de um e-commerce de vendas de carros. 
+# Projeto Acompanhamento Vendas
+
+Nesse repositório, temos o meu projeto de análise dos dados fictícios de um e-commerce de vendas de carros. 
 
 A primeira análise visa verificar a quantidade de leads(potenciais clientes) e a refeita alcançada por mês. Temos também as informações 
 de receita mediante as vendas por mês, a conversão(que mostra qual a porcentagem de leads que se tornaram clientes), e o ticket médio
@@ -25,11 +26,38 @@ Para analisarmos melhor os dados, criei uma planilha com as mesmas informações
 
 A segunda análise é verificar quais foram os estados que mais venderam. Seguem detalhes
 
-query:
 
 ![image](https://github.com/jucafernando/projeto-acompanhamento-vendas/assets/21082881/4fd5353f-0d99-47ac-a949-5e79b989709e)
 
-Gráfico:
+
+
+![image](https://github.com/jucafernando/projeto-acompanhamento-vendas/assets/21082881/501df8f2-c1bc-4852-8ef7-c3900c2a9012)
+
+A Terceira análise é verificar o top 5 marcas mais vendidas no nosso site: 
+
+![image](https://github.com/jucafernando/projeto-acompanhamento-vendas/assets/21082881/83d55f8d-3bb5-419e-92a7-7a5868fbbd31)
+
+
+![image](https://github.com/jucafernando/projeto-acompanhamento-vendas/assets/21082881/f648422b-d913-44c9-92d9-b5999119f6d0)
+
+Na quarta análise precisamos verificar o top 5 das lojas que mais venderam:
+
+![image](https://github.com/jucafernando/projeto-acompanhamento-vendas/assets/21082881/b354dc19-d71f-4b84-a79a-2f13ea74d900)
+
+E na quinta análise,precisamos verificar qual o dia da semana que o site recebeu mais visitas. Utilizei a função extract para
+selecionar o dia que é representado entre número sendo 0 o primeiro dia da semana. Fiz um case when para termos uma coluna
+com os nomes dos dias corretamente.
+
+![image](https://github.com/jucafernando/projeto-acompanhamento-vendas/assets/21082881/cd2ca565-59a4-42f9-a4d4-820db0c15c6d)
+
+![image](https://github.com/jucafernando/projeto-acompanhamento-vendas/assets/21082881/586eebc9-7e52-4c88-9202-47e071d26713)
+
+
+
+
+
+
+
 
 
 
