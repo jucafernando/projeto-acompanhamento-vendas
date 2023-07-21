@@ -1,6 +1,11 @@
 # Projeto Acompanhamento Vendas
 
-Nesse repositório, temos o meu projeto de análise dos dados fictícios de um e-commerce de vendas de carros. 
+Nesse repositório, temos o meu projeto de análise dos dados fictícios de um e-commerce de vendas de carros. Abaixo segue o DER-diagrama
+entidade relacionamento), para facilitar a visão dos dados do projeto:
+
+
+![Diagrama img](https://github.com/jucafernando/projeto-acompanhamento-vendas/assets/21082881/b69b21ea-b2e3-437b-b21d-c655c60edecd)
+
 
 A primeira análise visa verificar a quantidade de leads(potenciais clientes) e a refeita alcançada por mês. Temos também as informações 
 de receita mediante as vendas por mês, a conversão(que mostra qual a porcentagem de leads que se tornaram clientes), e o ticket médio
