@@ -27,6 +27,7 @@ select
 	data_visitas.visit_page_month as "mes",
 	data_visitas.visit_count as "leads", 
 	payments.paid_count as "vendas",
+	
 	(payments.receita/1000) as "receita (k, R$)",
 	(payments.paid_count::float/data_visitas.visit_count::float) as "conversão %",
 	(payments.receita/payments.paid_count/1000) as "ticket médio (k, R$)"
