@@ -19,12 +19,17 @@ a receita total por mês.
 Após criada essas duas cte's, criei uam seleção juntando as colunas das duas cte's mais a criação dos campos convenção e ticket 
 médio. Abaixo segue o resultado: 
 
-Para analisarmos melhor os dados, criei uma planilha com as mesmas informações: 
+Para analisarmos melhor os dados, criei uma planilha com um gráfico contendo as mesmas informações: 
 
 ![image](https://github.com/jucafernando/projeto-acompanhamento-vendas/assets/21082881/0945ef34-0053-4146-9b16-32ae050ba67f)
 
 
-A segunda análise é verificar quais foram os estados que mais venderam. Seguem detalhes
+A segunda análise é verificar quais foram os estados que mais venderam. Para adquirir essas informações, foi necessário fazer
+um join com as bases de dados funnel ( que contem as informações das vendas) e a base de dados customers (contendo informações 
+dos clientes). Para conseguir colocar o mapa do Brasil no gráfico e retornar o resultado corretamente, criei uma coluna chamada
+país, que possui como dado, o nome do Brazil, os campos state e uma contagem total do campo paid_date para verificarmos a quanti
+dade total de visitas, filtrei essas informações para o mês de 08 de 2021, agrupei por país e estado para separarmos o resultado
+da query por estado e ordenei por vendas e colocar os top 5 estados que mais venderam:
 
 
 ![image](https://github.com/jucafernando/projeto-acompanhamento-vendas/assets/21082881/4fd5353f-0d99-47ac-a949-5e79b989709e)
